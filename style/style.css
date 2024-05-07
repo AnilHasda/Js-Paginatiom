@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    }
+    .main{
+    height:auto;
+    width:100vw;
+    background:blueviolet;
+    display:grid;
+    grid-template-columns:repeat(3,minmax(100px,1fr));
+    gap:20px;
+    padding:0px 10px;
+    }
+    .child{
+    height:100px;
+    background:white;
+    display:grid;
+    place-items:center;
+    }
+    .buttons{
+    height:auto;
+    width:100vw;
+    background:orange;
+    display:grid;
+    grid-template-columns:repeat(5,minmax(50px,1fr));
+    gap:20px;
+    padding:20px 10px;
+    }
+    .button{
+    height:30px;
+    }
